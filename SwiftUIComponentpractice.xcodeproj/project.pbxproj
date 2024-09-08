@@ -20,6 +20,7 @@
 		18A2C88B2C8DA005006C94EB /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C88A2C8DA005006C94EB /* ShapeView.swift */; };
 		18A2C88E2C8DA40B006C94EB /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C88D2C8DA40B006C94EB /* ColorView.swift */; };
 		18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C88F2C8DA90C006C94EB /* Color+Extension.swift */; };
+		18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8922C8DA9EA006C94EB /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		18A2C88A2C8DA005006C94EB /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		18A2C88D2C8DA40B006C94EB /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		18A2C88F2C8DA90C006C94EB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		18A2C8922C8DA9EA006C94EB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		18A2C8562C8D99E5006C94EB /* SwiftUIComponentpractice */ = {
 			isa = PBXGroup;
 			children = (
+				18A2C8912C8DA9D9006C94EB /* Gradients */,
 				18A2C88C2C8DA3FB006C94EB /* Color */,
 				18A2C8892C8D9FF2006C94EB /* Shape */,
 				18A2C8862C8D99F0006C94EB /* Text */,
@@ -167,6 +170,14 @@
 				18A2C88F2C8DA90C006C94EB /* Color+Extension.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		18A2C8912C8DA9D9006C94EB /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				18A2C8922C8DA9EA006C94EB /* GradientView.swift */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 				18A2C8642C8D99E6006C94EB /* SwiftUIComponentpractice.xcdatamodeld in Sources */,
 				18A2C8582C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift in Sources */,
 				18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */,
+				18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
