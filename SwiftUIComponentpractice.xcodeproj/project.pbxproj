@@ -21,6 +21,10 @@
 		18A2C88E2C8DA40B006C94EB /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C88D2C8DA40B006C94EB /* ColorView.swift */; };
 		18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C88F2C8DA90C006C94EB /* Color+Extension.swift */; };
 		18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8922C8DA9EA006C94EB /* GradientView.swift */; };
+		18A2C8962C8DACEE006C94EB /* SystemiconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8952C8DACEE006C94EB /* SystemiconsView.swift */; };
+		18A2C8992C8DB04D006C94EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8982C8DB04D006C94EB /* Images.swift */; };
+		18A2C89C2C8DB3A0006C94EB /* FrameAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */; };
+		18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89E2C8DB696006C94EB /* OverlaysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		18A2C88D2C8DA40B006C94EB /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		18A2C88F2C8DA90C006C94EB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		18A2C8922C8DA9EA006C94EB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		18A2C8952C8DACEE006C94EB /* SystemiconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemiconsView.swift; sourceTree = "<group>"; };
+		18A2C8982C8DB04D006C94EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignmentView.swift; sourceTree = "<group>"; };
+		18A2C89E2C8DB696006C94EB /* OverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 		18A2C8562C8D99E5006C94EB /* SwiftUIComponentpractice */ = {
 			isa = PBXGroup;
 			children = (
+				18A2C89D2C8DB679006C94EB /* BckgroundOverlaysView */,
+				18A2C89A2C8DB386006C94EB /* FrameAlignments */,
+				18A2C8972C8DB03F006C94EB /* Images */,
+				18A2C8942C8DACD9006C94EB /* System Icons */,
 				18A2C8912C8DA9D9006C94EB /* Gradients */,
 				18A2C88C2C8DA3FB006C94EB /* Color */,
 				18A2C8892C8D9FF2006C94EB /* Shape */,
@@ -178,6 +190,38 @@
 				18A2C8922C8DA9EA006C94EB /* GradientView.swift */,
 			);
 			path = Gradients;
+			sourceTree = "<group>";
+		};
+		18A2C8942C8DACD9006C94EB /* System Icons */ = {
+			isa = PBXGroup;
+			children = (
+				18A2C8952C8DACEE006C94EB /* SystemiconsView.swift */,
+			);
+			path = "System Icons";
+			sourceTree = "<group>";
+		};
+		18A2C8972C8DB03F006C94EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18A2C8982C8DB04D006C94EB /* Images.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		18A2C89A2C8DB386006C94EB /* FrameAlignments */ = {
+			isa = PBXGroup;
+			children = (
+				18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */,
+			);
+			path = FrameAlignments;
+			sourceTree = "<group>";
+		};
+		18A2C89D2C8DB679006C94EB /* BckgroundOverlaysView */ = {
+			isa = PBXGroup;
+			children = (
+				18A2C89E2C8DB696006C94EB /* OverlaysView.swift */,
+			);
+			path = BckgroundOverlaysView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +355,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A2C88B2C8DA005006C94EB /* ShapeView.swift in Sources */,
+				18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */,
 				18A2C8612C8D99E6006C94EB /* Persistence.swift in Sources */,
 				18A2C88E2C8DA40B006C94EB /* ColorView.swift in Sources */,
+				18A2C8992C8DB04D006C94EB /* Images.swift in Sources */,
+				18A2C89C2C8DB3A0006C94EB /* FrameAlignmentView.swift in Sources */,
 				18A2C8882C8D9A18006C94EB /* TextSwiftUI.swift in Sources */,
 				18A2C85A2C8D99E5006C94EB /* ContentView.swift in Sources */,
 				18A2C8642C8D99E6006C94EB /* SwiftUIComponentpractice.xcdatamodeld in Sources */,
 				18A2C8582C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift in Sources */,
 				18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */,
+				18A2C8962C8DACEE006C94EB /* SystemiconsView.swift in Sources */,
 				18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
