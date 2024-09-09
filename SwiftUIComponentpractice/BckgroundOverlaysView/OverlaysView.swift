@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OverlaysView: View {
     // we can add any view , color , gradient , shape on background
-    
+    //An overlay is a view drawing on top of another view
     var body: some View {
         VStack(alignment:.center){
             Text("BackGround").background(
