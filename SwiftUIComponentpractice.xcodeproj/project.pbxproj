@@ -30,6 +30,8 @@
 		18A2C8992C8DB04D006C94EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8982C8DB04D006C94EB /* Images.swift */; };
 		18A2C89C2C8DB3A0006C94EB /* FrameAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */; };
 		18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89E2C8DB696006C94EB /* OverlaysView.swift */; };
+		18C891BD2C94502000932533 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C891BC2C94502000932533 /* ButtonView.swift */; };
+		18C891C02C94584200932533 /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C891BF2C94584200932533 /* StatePropertyView.swift */; };
 		18D463A42C943C4C002B9789 /* initializerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D463A32C943C4C002B9789 /* initializerView.swift */; };
 		18D463A92C944249002B9789 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D463A82C944249002B9789 /* SafeAreaView.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +80,8 @@
 		18A2C8982C8DB04D006C94EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignmentView.swift; sourceTree = "<group>"; };
 		18A2C89E2C8DB696006C94EB /* OverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaysView.swift; sourceTree = "<group>"; };
+		18C891BC2C94502000932533 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		18C891BF2C94584200932533 /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		18D463A32C943C4C002B9789 /* initializerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initializerView.swift; sourceTree = "<group>"; };
 		18D463A82C944249002B9789 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +174,8 @@
 		18A2C8562C8D99E5006C94EB /* SwiftUIComponentpractice */ = {
 			isa = PBXGroup;
 			children = (
+				18C891BE2C94582500932533 /* stateproperty */,
+				18C891BB2C94500F00932533 /* Button */,
 				18D463A72C944237002B9789 /* Safe area */,
 				18D4639D2C943177002B9789 /* init&Enum */,
 				189216672C8EFF3C008AA5A0 /* Lazy Grid */,
@@ -283,6 +289,22 @@
 				18A2C89E2C8DB696006C94EB /* OverlaysView.swift */,
 			);
 			path = BckgroundOverlaysView;
+			sourceTree = "<group>";
+		};
+		18C891BB2C94500F00932533 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				18C891BC2C94502000932533 /* ButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		18C891BE2C94582500932533 /* stateproperty */ = {
+			isa = PBXGroup;
+			children = (
+				18C891BF2C94584200932533 /* StatePropertyView.swift */,
+			);
+			path = stateproperty;
 			sourceTree = "<group>";
 		};
 		18D4639D2C943177002B9789 /* init&Enum */ = {
@@ -432,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A2C88B2C8DA005006C94EB /* ShapeView.swift in Sources */,
+				18C891C02C94584200932533 /* StatePropertyView.swift in Sources */,
 				18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */,
 				187DA2DE2C91A81C00D0C911 /* LazyGridView.swift in Sources */,
 				18A2C8612C8D99E6006C94EB /* Persistence.swift in Sources */,
@@ -451,6 +474,7 @@
 				18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */,
 				18A2C8962C8DACEE006C94EB /* SystemiconsView.swift in Sources */,
 				18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */,
+				18C891BD2C94502000932533 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
