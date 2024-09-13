@@ -10,6 +10,8 @@
 		182F6FE62C8EBDCE00BDA672 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F6FE52C8EBDCE00BDA672 /* StacksView.swift */; };
 		182F6FE92C8EC39500BDA672 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F6FE82C8EC39500BDA672 /* PaddingView.swift */; };
 		182F6FEC2C8EC76900BDA672 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F6FEB2C8EC76900BDA672 /* SpacerView.swift */; };
+		187DA2DE2C91A81C00D0C911 /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DA2DD2C91A81C00D0C911 /* LazyGridView.swift */; };
+		189216662C8EFAA7008AA5A0 /* scrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189216652C8EFAA7008AA5A0 /* scrollView.swift */; };
 		18A2C8582C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8572C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift */; };
 		18A2C85A2C8D99E5006C94EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8592C8D99E5006C94EB /* ContentView.swift */; };
 		18A2C85C2C8D99E6006C94EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A2C85B2C8D99E6006C94EB /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		18A2C8992C8DB04D006C94EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C8982C8DB04D006C94EB /* Images.swift */; };
 		18A2C89C2C8DB3A0006C94EB /* FrameAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */; };
 		18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2C89E2C8DB696006C94EB /* OverlaysView.swift */; };
+		18D463A42C943C4C002B9789 /* initializerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D463A32C943C4C002B9789 /* initializerView.swift */; };
+		18D463A92C944249002B9789 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D463A82C944249002B9789 /* SafeAreaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		182F6FE52C8EBDCE00BDA672 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		182F6FE82C8EC39500BDA672 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		182F6FEB2C8EC76900BDA672 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		187DA2DD2C91A81C00D0C911 /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
+		189216652C8EFAA7008AA5A0 /* scrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollView.swift; sourceTree = "<group>"; };
 		18A2C8542C8D99E5006C94EB /* SwiftUIComponentpractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponentpractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A2C8572C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentpracticeApp.swift; sourceTree = "<group>"; };
 		18A2C8592C8D99E5006C94EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,8 @@
 		18A2C8982C8DB04D006C94EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		18A2C89B2C8DB3A0006C94EB /* FrameAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignmentView.swift; sourceTree = "<group>"; };
 		18A2C89E2C8DB696006C94EB /* OverlaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaysView.swift; sourceTree = "<group>"; };
+		18D463A32C943C4C002B9789 /* initializerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initializerView.swift; sourceTree = "<group>"; };
+		18D463A82C944249002B9789 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,22 @@
 			path = Spacer;
 			sourceTree = "<group>";
 		};
+		189216642C8EFA8A008AA5A0 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				189216652C8EFAA7008AA5A0 /* scrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		189216672C8EFF3C008AA5A0 /* Lazy Grid */ = {
+			isa = PBXGroup;
+			children = (
+				187DA2DD2C91A81C00D0C911 /* LazyGridView.swift */,
+			);
+			path = "Lazy Grid";
+			sourceTree = "<group>";
+		};
 		18A2C84B2C8D99E5006C94EB = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +170,10 @@
 		18A2C8562C8D99E5006C94EB /* SwiftUIComponentpractice */ = {
 			isa = PBXGroup;
 			children = (
+				18D463A72C944237002B9789 /* Safe area */,
+				18D4639D2C943177002B9789 /* init&Enum */,
+				189216672C8EFF3C008AA5A0 /* Lazy Grid */,
+				189216642C8EFA8A008AA5A0 /* ScrollView */,
 				182F6FEA2C8EC75700BDA672 /* Spacer */,
 				182F6FE72C8EC38600BDA672 /* Padding */,
 				182F6FE42C8EBDBA00BDA672 /* StackView */,
@@ -255,6 +283,22 @@
 				18A2C89E2C8DB696006C94EB /* OverlaysView.swift */,
 			);
 			path = BckgroundOverlaysView;
+			sourceTree = "<group>";
+		};
+		18D4639D2C943177002B9789 /* init&Enum */ = {
+			isa = PBXGroup;
+			children = (
+				18D463A32C943C4C002B9789 /* initializerView.swift */,
+			);
+			path = "init&Enum";
+			sourceTree = "<group>";
+		};
+		18D463A72C944237002B9789 /* Safe area */ = {
+			isa = PBXGroup;
+			children = (
+				18D463A82C944249002B9789 /* SafeAreaView.swift */,
+			);
+			path = "Safe area";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,8 +433,10 @@
 			files = (
 				18A2C88B2C8DA005006C94EB /* ShapeView.swift in Sources */,
 				18A2C89F2C8DB696006C94EB /* OverlaysView.swift in Sources */,
+				187DA2DE2C91A81C00D0C911 /* LazyGridView.swift in Sources */,
 				18A2C8612C8D99E6006C94EB /* Persistence.swift in Sources */,
 				182F6FE62C8EBDCE00BDA672 /* StacksView.swift in Sources */,
+				18D463A42C943C4C002B9789 /* initializerView.swift in Sources */,
 				182F6FEC2C8EC76900BDA672 /* SpacerView.swift in Sources */,
 				18A2C88E2C8DA40B006C94EB /* ColorView.swift in Sources */,
 				18A2C8992C8DB04D006C94EB /* Images.swift in Sources */,
@@ -399,7 +445,9 @@
 				182F6FE92C8EC39500BDA672 /* PaddingView.swift in Sources */,
 				18A2C85A2C8D99E5006C94EB /* ContentView.swift in Sources */,
 				18A2C8642C8D99E6006C94EB /* SwiftUIComponentpractice.xcdatamodeld in Sources */,
+				189216662C8EFAA7008AA5A0 /* scrollView.swift in Sources */,
 				18A2C8582C8D99E5006C94EB /* SwiftUIComponentpracticeApp.swift in Sources */,
+				18D463A92C944249002B9789 /* SafeAreaView.swift in Sources */,
 				18A2C8902C8DA90C006C94EB /* Color+Extension.swift in Sources */,
 				18A2C8962C8DACEE006C94EB /* SystemiconsView.swift in Sources */,
 				18A2C8932C8DA9EA006C94EB /* GradientView.swift in Sources */,
